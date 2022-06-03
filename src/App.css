@@ -1,0 +1,35 @@
+.triangle {
+  display: inline-block;
+  vertical-align: middle;
+  border-right: 3050px solid transparent;
+  border-top: 850px solid #0891b2;  
+  position: absolute;
+  overflow-y: hidden;
+  z-index: 0;
+}
+
+.profile {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  z-index: 10;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile__image {
+  background-color: black;
+  width: 650px;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+.profile__text {
+  width: 700px;
+  height: 550px;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 0px rgb(63, 63, 63);
+}
